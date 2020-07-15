@@ -16,7 +16,7 @@ name VARCHAR(50)
 );
 
 -- 3. **Create table innings**
-CREATE TABLE referee (
+CREATE TABLE innings (
 id int,
 innings_number int
 );
@@ -104,6 +104,6 @@ DROP TABLE city;
 -- 14. **Drop table innings**
 DROP TABLE innings;
 -- 15. **Drop table skill**
-DROP TABLE skill;
+SELECT * FROM SKILL;
 -- 16. **Drop table extra_type**
 DROP TABLE extra_type;
